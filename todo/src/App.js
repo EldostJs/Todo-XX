@@ -1,11 +1,9 @@
-import Todo from "./Test1/Components/Todo";
-import TodoList from "./Test1/Components/TodoList";
+import AppTodo from "./Test66/AppTodo";
 
 function App() {
   return (
     <>
-    <Todo/>
-    <TodoList/>
+    <AppTodo/>
     </>
   );
 }

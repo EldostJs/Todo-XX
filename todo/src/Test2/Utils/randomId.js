@@ -1,4 +1,6 @@
-function getRandomId(todos) {
+import getRandomId from "../../Test1/Utils/randomId";
+
+function randomId(todos) {
     const limit = 100;
     const existID = todos.map(x => x.id)
 
@@ -6,10 +8,9 @@ function getRandomId(todos) {
 
     do {
         ID = Math.floor(Math.random() * limit)
-
     } while (existID.includes(ID));
 
-    return ID;
+    return ID
 }
 
-export default getRandomId; 
+export default getRandomId

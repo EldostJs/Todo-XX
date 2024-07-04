@@ -1,4 +1,3 @@
-import Todo from "../Components/Todo"
 
 const ADD = 'ADD'
 const DELETE = "DELETE"
